@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -i ~/.ssh/school ubuntu54.160.98.89
