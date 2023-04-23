@@ -56,7 +56,7 @@ Requirements:
 
     Your SSH client configuration must be configured to use the private key ~/.ssh/school
     Your SSH client configuration must be configured to refuse to authenticate using a password
-
+"
 Example:
 
 sylvain@ubuntu$ ssh -v ubuntu@98.98.98.98

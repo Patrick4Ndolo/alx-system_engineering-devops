@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#This script configures local ssh client to connect to the server without
+#password
+Host patrick-Latitude-7320
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
