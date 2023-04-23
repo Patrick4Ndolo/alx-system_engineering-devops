@@ -21,6 +21,9 @@ Requirements:
     Name of the created private key must be school
     Number of bits in the created key to be created 4096
     The created key must be protected by the passphrase betty
+    This script uses the ssh-keygen command to create an RSA key pair. The -t option specifies the type of key to be created, in this case rsa. The -b option specifies the number of bits in the key, which is 4096 in this case. The -f option specifies the filename of the private key to be created, which is school. Finally, the -N option specifies the passphrase to protect the private key, which is betty."
+
+When you run this script, it will create two files in the current directory: school (the private key) and school.pub (the public key). The private key will be protected by the passphrase betty.
 
 Example:
 
