@@ -1,4 +1,4 @@
 #This script executes a command
-exec { 'killmenow':
+exec { 'pkillmenow killmenow':
   path  => '/usr/bin:/usr/sbin:/bin',
 }
